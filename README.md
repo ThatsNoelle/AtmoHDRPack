@@ -1,10 +1,10 @@
 # AtmoHDRPack
-Salut !
-Le but de cette page est de fournir des tutos complets pour débutants *et surtout j'ai pas envie d'avoir mes DMs Discord saturés*, pour permettre à tous de mettre à jour HDR, ainsi que leurs Switch.
-Vous trouverez le pack dans les [releases] (https://github.com/ThatsNoelle/AtmoHDRPack/releases) (si je fais pas de la merde). 
-Notez que SSBU n'est pas compris dans ledit pack, achetez-le, ou ayez-le à vos propre risques.
-Si vous avez des problèmes, n'hésitez pas à ouvrir une issue sur la page GitHub ou à venir me contacter directement sur Discord (thatsnoelle).
-Sur cette page, vous n'apprendrez pas comment hack une Switch. Pour ça il existe des pages, des serveurs Discord, des forums déjà spécialisés.
+Salut !  
+Le but de cette page est de fournir des tutos complets pour débutants *et surtout j'ai pas envie d'avoir mes DMs Discord saturés*, pour permettre à tous de mettre à jour HDR, ainsi que leurs Switch.  
+Vous trouverez le pack dans les [releases](https://github.com/ThatsNoelle/AtmoHDRPack/releases) (si je fais pas de la merde).  
+Notez que SSBU n'est pas compris dans ledit pack, achetez-le, ou ayez-le à vos propre risques.  
+Si vous avez des problèmes, n'hésitez pas à ouvrir une issue sur la page GitHub ou à venir me contacter directement sur Discord (thatsnoelle).  
+Sur cette page, vous n'apprendrez pas comment hack une Switch. Pour ça il existe des pages, des serveurs Discord, des forums déjà spécialisés.  
 
 Ce pack contient :
 - La dernière version de Atmosphere (Version actuelle :`1.6.2`)
@@ -41,7 +41,7 @@ Switch. De manière générale, si vous le pouvez, mettez toujours à jour Atmos
 Internet n'est pas conseillé si vous avez des jeux crackés).
 
 1. Mettez d'abord à jour Atmosphere avec le pack et le tuto.
-2. Allez prendre la dernière version de la switch en suivant [ce] (https://darthsternie.net/switch-firmwares/) lien. La version actuelle conseillée est la `17.0.1`.
+2. Allez prendre la dernière version de la switch en suivant [ce lien](https://darthsternie.net/switch-firmwares/). La version actuelle conseillée est la `17.0.1`.
 3. Avec le Homebrew DBi (présent dans le pack), ou sur Hekate, accédez à votre carte SD. 
 4. Une fois sur votre SD, mettez tout les fichiers du .zip dans un dossier à la racine de votre SD.
 5. Maintenant que vous avez votre dossier, retournez sur le menu Home, et relancez le Homebrew menu.
@@ -62,11 +62,11 @@ Si vous avez des problèmes avec le launcher de HDR pour installer la màj, voic
 2. Supprimez le fichier `hdr-launcher.nro` se trouvant dans le dossier `SD/atmosphere/contents/01006a800016e000/romfs/skyline/plugins/`.
 3. Supprimez le dossier `0100000000000013` se trouvant dans le dossier `SD:/atmosphere/contents/`.
 4. Supprimez les dossiers `hdr`, `hdr-assets`, ainsi que `hdr-stages` se trouvant dans le dossier `SD:/ultimate/mods/`.
-5. Refaites une installation complète en prenant la dernière version du pack, ou en prenant la dernière version sur le [GitHub de HDR] (https://github.com/HDR-Development/HDR-Releases/releases).
+5. Refaites une installation complète en prenant la dernière version du pack, ou en prenant la dernière version sur le [GitHub de HDR](https://github.com/HDR-Development/HDR-Releases/releases).
 
 # Crédits & remerciements
-- La team HDR et le mod HDR : leur [serveur Discord] (https://discord.gg/hdr) & leur [page GitHub] (https://github.com/HDR-Development/HDR-Releases).
-- Atmosphere : leur [page GitHub] (https://github.com/Atmosphere-NX/Atmosphere).
-- Hekate : leur [page GitHub] (https://github.com/CTCaer/hekate)
-- Le serveur Discord de Sblerky, la principale base de ce pack : le [serveur Discord] (https://discord.gg/6DUzJuzHSB) en question
+- La team HDR et le mod HDR : leur [serveur Discord](https://discord.gg/hdr) & leur [page GitHub](https://github.com/HDR-Development/HDR-Releases).
+- Atmosphere : leur [page GitHub](https://github.com/Atmosphere-NX/Atmosphere).
+- Hekate : leur [page GitHub](https://github.com/CTCaer/hekate)
+- Le serveur Discord de Sblerky, la principale base de ce pack : le [serveur Discord](https://discord.gg/6DUzJuzHSB) en question
 - Aline <3
