@@ -17,9 +17,10 @@ Ce pack contient :
 ### Sommaire
 - [Accéder à sa SD avec Hekate](#https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#comment-acc%C3%A9der-facilement-%C3%A0-votre-sd-via-hekate)
 - [Accéder à sa SD avec DBi](https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#comment-acc%C3%A9der-facilement-%C3%A0-votre-sd-et-m%C3%AAme-plus-via-dbi)
-- [Mettre à jour Atmosphere](https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#comment-mettre-%C3%A0-jour-atmosphere)
-- [Mettre à jour le firmware de sa Switch](https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#comment-mettre-%C3%A0-jour-votre-switch)
+- [Mettre à jour le pack en entier](https://github.com/ThatsNoelle/AtmoHDRPack/edit/main/README.md#comment-mettre-%C3%A0-jour-le-pack)
+- [Mettre à jour le firmware de sa Switch](https://github.com/ThatsNoelle/AtmoHDRPack/edit/main/README.md#comment-mettre-%C3%A0-jour-le-firmware-de-votre-switch)
 - [Mettre à jour HDR](https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#comment-mettre-%C3%A0-jour-hdr)
+- [Enlever les protections contre le Online (déconseillé)](https://github.com/ThatsNoelle/AtmoHDRPack/edit/main/README.md#comment-enlever-les-protections-contre-le-online)
 - [Crédits et remerciements](https://github.com/ThatsNoelle/AtmoHDRPack?tab=readme-ov-file#cr%C3%A9dits--remerciements)
 
 ### Comment accéder facilement à votre SD via Hekate
@@ -33,17 +34,19 @@ Ce pack contient :
 8. Pour retourner sur votre Switch, retournez sur l'onglet `Home`, appuyez sur `Launch`, et ensuite, suivant si vous avez une EmuNAND ou non, appuyez sur `EmuNAND - CFW` ou sur `SysNAND - CFW`. (pour savoir si vous avez une EmuNAND, un dossier `emuMMC` devrait être présent à la racine de votre SD). Votre Switch s'allume maintenant en CFW (en hacké)
 
 ### Comment accéder facilement à votre SD (et même plus) via DBi
-1. Branchez votre Switch à un ordinateur. Lancez le homebrew dans le homebrew menu (l'album), un écran bleu devrait apparaître. Utilisant votre manette, déplacez le curseur sur "Run MTP Responder", et cliquez dessus.
-2. Acceptez sur votre ordinateur le fait de pouvoir explorer les fichiers du périphérique.
-3. Pour accéder à votre SD, cliquez sur `1: SD Card`.
-4. Pour retourner au menu Home, il suffit juste de spammer B jusqu'à votre menu Home.
+1. Branchez votre Switch à un ordinateur. Lancez le homebrew dans le homebrew menu (l'album), un écran bleu devrait apparaître.
+2. Utilisant votre manette, déplacez le curseur sur "Run MTP Responder", et appuyez sur le bouton `A` pour valider.
+3. Acceptez sur votre ordinateur le fait de pouvoir explorer les fichiers du périphérique.
+4. Pour accéder à votre SD, cliquez sur `1: SD Card`.
+5. Vous êtes maintenant sur votre carte SD !
+6. Pour retourner au menu Home, il suffit juste de spammer B jusqu'à votre menu Home.
 
-### Comment mettre à jour Atmosphere
+### Comment mettre à jour le pack
 1. Supprimez tout sur votre carte SD, sauf les dossiers `emuMMC` (si il existe) et `Nintendo`.
-2. Allez prendre le dernier pack se trouvant dans les releases.
+2. Téléchargez le dernier pack se trouvant dans les releases.
 3. Une fois téléchargé, mettez le tout le contenu du dossier à la racine de votre carte SD.
 
-### Comment mettre à jour votre switch
+### Comment mettre à jour le Firmware de votre Switch
 **__Note__ :** Je vous conseille fortement de désactiver les mises à jour automatiques, que ce soit des jeux ou de la 
 Switch. De manière générale, si vous le pouvez, mettez toujours à jour Atmosphere ET ENSUITE la switch via Daybreak (via 
 Internet n'est pas conseillé si vous avez des jeux crackés).
@@ -71,6 +74,13 @@ Si vous avez des problèmes avec le launcher de HDR pour installer la màj, voic
 3. Supprimez le dossier `0100000000000013` se trouvant dans le dossier `SD:/atmosphere/contents/`.
 4. Supprimez les dossiers `hdr`, `hdr-assets`, ainsi que `hdr-stages` se trouvant dans le dossier `SD:/ultimate/mods/`.
 5. Refaites une installation complète en prenant la dernière version du pack, ou en prenant la dernière version sur le [GitHub de HDR](https://github.com/HDR-Development/HDR-Releases/releases).
+
+### Comment enlever les protections contre le Online
+**⚠️ATTENTION : Ne jouez SURTOUT PAS en Quick Play avec HDR (ou mods dits "non Wifi-Safe"). Pour ne pas vous faire bannir des serveurs de Nintendo, ne jouez avec des mods qu'en arène. De plus, il est impossible de jouer en ligne avec un jeu cracké, cela reviendrait en un ban immédiat. Je ne serai pas responsable de vos actes si vous vous faites bannir.⚠️**
+1. Accédez à votre SD en utilisant DBi ou Hekate (tutos dispo plus haut).
+2. À la racine de votre SD (ou du pack), il y a un fichier nommé `exosphere.ini`. Si vous ne voulez pas de risques, coupez-collez le sur votre PC, sinon supprimez-le.
+3. Dans le dossier `atmosphere`, il y a un dossier nommé `hosts`. Si vous ne voulez pas de risques, coupez-collez le sur votre PC, sinon supprimez-le.
+4. Félicitations (ou pas), vos protections contre le Online de Nintendo sont maintenant retirées !
 
 # Crédits & remerciements
 - La team HDR et le mod HDR : leur [serveur Discord](https://discord.gg/hdr) & leur [page GitHub](https://github.com/HDR-Development/HDR-Releases).
